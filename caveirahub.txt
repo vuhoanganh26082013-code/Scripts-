@@ -708,15 +708,6 @@ ScreenGui.Name = "ControlButtonGUI"
 ScreenGui.Parent = CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
--- ImageButton
-local ToggleButton = Instance.new("ImageButton")
-ToggleButton.Size = UDim2.new(0, 50, 0, 50)
-ToggleButton.Position = UDim2.new(0.15, 0, 0.15, 0)
-ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ToggleButton.BorderSizePixel = 0
-ToggleButton.Image = "rbxassetid://130364232574601" -- sua imagem
-ToggleButton.Parent = ScreenGui
-
 -- UICorner para bordas arredondadas
 local Corner = Instance.new("UICorner")
 Corner.CornerRadius = UDim.new(1, 0)
